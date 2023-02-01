@@ -2,7 +2,7 @@ import axios from "axios";
 
 // const url = "https://secure-springs-23449.herokuapp.com";
 
-const url = "http://localhost:5000";
+const url = "https://intiquerybackend.onrender.com";
 
 export const submitQuestion = async (questionData) =>
   await axios.post(`${url}/question/submitQuestion`, questionData);
