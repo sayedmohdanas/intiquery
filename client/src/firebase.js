@@ -5,12 +5,12 @@ import { getAuth } from "firebase/auth";
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCURPvtwZCm75MwULYolKdYDdZ-PTFBMdE",
+  apiKey: "",
   authDomain: "intiquery2.firebaseapp.com",
   projectId: "intiquery2",
   storageBucket: "intiquery2.appspot.com",
-  messagingSenderId: "84650916518",
-  appId: "1:84650916518:web:36f7026f1e1306deac9267",
+  messagingSenderId: "",
+  appId: "",
 };
 
 const app = initializeApp(firebaseConfig);
