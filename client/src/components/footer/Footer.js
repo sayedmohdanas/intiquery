@@ -13,7 +13,7 @@ function Footer() {
         justifyContent: "center",
         alignItems: "center",
       }}
-    >
+    > 
       <Typography
         sx={{
           fontSize: {
@@ -29,7 +29,7 @@ function Footer() {
           whiteSpace: "pre-wrap",
           textAlign: "left",
         }}
-      >
+      > 
         All Rights reserved by Intiquery 2024
       </Typography>
     </Box>

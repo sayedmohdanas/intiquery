@@ -9,7 +9,7 @@ export const addUserData = async (req, res) => {
     console.log(user);
     if (user === null) {
       const newUserData = new UserData({ ...userData, userId });
-
+ 
       newUserData
         .save()
         .then((user) => res.status(200).json(user))

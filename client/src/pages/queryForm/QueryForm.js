@@ -25,7 +25,7 @@ function QueryForm() {
     e.preventDefault();
     dispatch(submitQuestion({ userId, ...formData }, navigate));
     setFormData({ title: "", description: "" });
-  };
+  }; 
 
   return (
     <Box sx={{ height: "100vh" }}>

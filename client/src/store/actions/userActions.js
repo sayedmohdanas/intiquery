@@ -6,7 +6,7 @@ export const addUserData = (newData) => async (dispatch) => {
   dispatch(setUserLoading(true));
   try {
     const { data } = await api.addUserData(newData);
-
+ 
     console.log(data);
 
     dispatch({ type: ADD_USER_DATA, payload: data });

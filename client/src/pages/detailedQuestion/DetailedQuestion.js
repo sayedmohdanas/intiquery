@@ -204,7 +204,7 @@ function DetailedQuestion() {
                   marginTop: "20px",
                   marginLeft: "10px",
                 }}
-              >
+              > 
                 NO Answers Yet!
               </Typography>
             )}

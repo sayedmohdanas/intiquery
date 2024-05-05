@@ -15,7 +15,7 @@ export const submitQuestion = (formData, navigate) => async (dispatch) => {
 
     const { data } = await api.submitQuestion(formData);
     dispatch(setUserLoading(false));
-
+ 
     alert("question is saved.");
     navigate("/");
   } catch (error) {

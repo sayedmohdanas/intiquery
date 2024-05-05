@@ -2,7 +2,7 @@ import express from "express";
 
 import { registerUser, loginUser, googleLogin } from "../controllers/auth.js";
 
-const router = express.Router();
+const router = express.Router(); 
 
 router.post("/register", registerUser);
 router.post("/login", loginUser);

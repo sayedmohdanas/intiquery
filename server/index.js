@@ -2,7 +2,7 @@ import express from "express";
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
 import cors from "cors";
-import passport from "passport";
+import passport from "passport"; 
 
 import authRoutes from "./routes/auth.js";
 import questionRoutes from "./routes/questionRoutes.js";

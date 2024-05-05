@@ -2,7 +2,7 @@ import axios from "axios";
 
 // const url = "https://secure-springs-23449.herokuapp.com";
 // const url = "https://intiquerybackend.onrender.com";
- const url ="http://localhost:8000"
+ const url ="http://localhost:8000" 
 export const registerUser = async (userData) => {
   return await axios.post(`${url}/auth/register`, userData);
 };

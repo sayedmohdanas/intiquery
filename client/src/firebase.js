@@ -6,7 +6,7 @@ import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
   apiKey: "AIzaSyC_iN2n3WzlRJq0p5i9KaSi1RfQmEZBiOg",
-  authDomain: "intiquery-979f3.firebaseapp.com",
+  authDomain: "intiquery-979f3.firebaseapp.com", 
   projectId: "intiquery-979f3",
   storageBucket: "intiquery-979f3.appspot.com",
   messagingSenderId: "534151748849",

@@ -7,7 +7,7 @@ import setAuthToken from "./utils/setAuthToken";
 import jwt_decode from "jwt-decode";
 import { setCurrentUser, logoutUser } from "./store/actions/authActions";
 import { useEffect } from "react";
-import "./index.css";
+import "./index.css"; 
 import LoadingOverlayComp from "./components/LoadingOverlayComp";
 import Profile from "./pages/Profile/Proflle";
 
