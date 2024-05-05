@@ -30,7 +30,7 @@ function Footer() {
           textAlign: "left",
         }}
       >
-        All Rights reserved by Intiquery 2022
+        All Rights reserved by Intiquery 2024
       </Typography>
     </Box>
   );

@@ -93,7 +93,7 @@ function DetailedQuestion() {
                 paddingBottom: "15px",
               }}
             >
-              {question[0].title}
+              {question[0]?.title}
             </Typography>
             <Typography
               sx={{

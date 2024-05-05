@@ -23,13 +23,14 @@ app.use(passport.initialize());
 app.use("/auth", authRoutes);
 app.use("/question", questionRoutes);
 app.use("/user", userRoutes);
+mongoose.set('strictQuery', false);
 
-const CONNECTION_URI =
-  "mongodb+srv://dbOne:Farhan21%40dbone@dbone.hewwx.mongodb.net/dbOne?retryWrites=true&w=majority";
-const PORT = process.env.PORT || 5000;
 
+const CONNECTION_URI ="mongodb+srv://sayedmohdanas0:KFW1HUzh9tQk0Wgb@intiquery2.xa7kjts.mongodb.net/"
+
+  const PORT = process.env.PORT || 8000;
 mongoose
-  .connect(CONNECTION_URI, { useNewUrlParser: true, useUnifiedTopology: true })
+  .connect(CONNECTION_URI, { useNewUrlParser: false, useUnifiedTopology: false })
   .then(() =>
     app.listen(PORT, () => console.log(`server is running on port ${PORT}`))
   )
